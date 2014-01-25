@@ -69,14 +69,15 @@ Getting Management Buy-in
 User Experience and Project Management Methodology
 
 
+1.) Creating user personas + exercise
 
 
-1.) How to know when you have a problem?
+2.) How to know when you have a problem?
         identifying what you want to see happening
         finding out what’s broken
 
 
-2.) Prioritizing
+3.) Prioritizing
         if 15 things aren’t working well, how do we decide what to fix first?
         assigning levels to pain points
         fix it now vs fix it later
@@ -86,14 +87,14 @@ User Experience and Project Management Methodology
 
 Exercise
 
-3.) Getting buy-in
+4.) Getting buy-in
         how to get company/colleague buy-in- guerrilla testing
         get your results in front of anyone who will listen
         crash meetings if you have to
         methods
 
 
-4.) User Experience and project management methodology
+5.) User Experience and project management methodology
         -working in a waterfall environment
         -working in an agile environment
 
