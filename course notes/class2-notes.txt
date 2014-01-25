@@ -65,4 +65,53 @@ But possibly not. One thing I’ve learned over the years is not to underestimat
 My point being that these details help you think about things from the user’s point of view.slide 12:
 [make a template]
 
-Let’s go back up to my persona, Zoidberg, for a moment. In my shop, we do agile ux so we didn’t spend time making our personas quite as detailed as we might have in a different sort of environment. This is an example of a persona for an administrator with expert domain knowledge. Some of the things we made sure to define included: age, physical location, and whether or not the person’s use of the application was mandatory or discretionary. For your project, it might make sense to include different aspects about your user.whatever else you do or do not choose to include in your template, it should at least cover the following:NameJob titleTechnical comfortLocationIndustry knowledgeThe only way to know what other characteristics you might want to know about your users will be by knowing the project you’re applying them to, so unfortunately this can be a somewhat vague process. There’s no global persona that will always work for every project. But I can tell you this- include your client or other stakeholders in the discussion as you flesh these out. They have invaluable knowledge to help guide you through this process.
+Let’s go back up to my persona, Zoidberg, for a moment. In my shop, we do agile ux so we didn’t spend time making our personas quite as detailed as we might have in a different sort of environment. This is an example of a persona for an administrator with expert domain knowledge. Some of the things we made sure to define included: age, physical location, and whether or not the person’s use of the application was mandatory or discretionary. For your project, it might make sense to include different aspects about your user.whatever else you do or do not choose to include in your template, it should at least cover the following:NameJob titleTechnical comfortLocationIndustry knowledgeThe only way to know what other characteristics you might want to know about your users will be by knowing the project you’re applying them to, so unfortunately this can be a somewhat vague process. There’s no global persona that will always work for every project. But I can tell you this- include your client or other stakeholders in the discussion as you flesh these out. They have invaluable knowledge to help guide you through this process.slide 13:
+[exercise]
+
+big stickies and markers
+
+slide 14:
+[determining when you have a problem]
+
+So we've been talking about becoming more intimately familiar with your target users. We’ve also talked about implementing metrics reporting and other methods, as well as how to get started with user testing. All of this activity was to help you determine what users are actually doing on your site, and it was for the end goal of determining whether you have any problems. This is really the meat and potatoes of UX. Anything you design ever is going to have problems. Finding and fixing them is the name of the game.
+
+slide 15:
+[what does a usability problem look like?]
+
+So what does a usability problem look like? How do you know when you’re seeing one? The biggest giveaway is any point when you see or hear a user expressing frustration, or is unable to complete a task.
+
+slide 16:
+[frustration]
+
+When you’re working with a user in person or via a remote test, it’s pretty easy to see when this happens. I would hope that most of us are able to understand the social cues involved with a frustrated individual. Frowning, fidgeting, seeming tense, or, quite possibly, simply stating to you as the UX researcher, ‘I’m feeling frustrated’. 
+
+slide 17:
+[cnn]
+
+When you’re looking at metrics or click data, there are some other telltale signs to look for. This screen was kindly provided by CNN from a whitepaper they published about one of their recentish redesigns. It demonstrates an anti-pattern known as ‘deadspace’. You can see everyone is clicking all around but not in this area down here.Another pattern to watch for is excessive aimless clicking in random places on the page. Sometimes people click randomly when they don’t know where to go next, or when things that aren’t clickable look clickable. Also, when things that *are* clickable do not look clickable. It’s a general indicator that they aren’t getting the scent. Here’s an example of  a heatmap with very focused clicking, which indicates that users are navigating through very successfully.Scrolling up and down (also known as ping-ponging), or the worst of all, closing the window and clicking away. Whatever it is you’re trying to do, you don’t want your users to give up and leave.This is something you can determine whether you’re working with a user in person, remotely over a tool like skype, or looking at metrics. How long are people spending on your pages?If they’re content pages, spending a long time can be a good thing- you do want people to linger and read your important content. But what if it’s a task completion page, or a call to action page? If users aren’t finding and completing that action that you want them to do within a reasonable period of time, that’s a big red flag.slide 18:
+[start with the obvious]
+
+Some examples:Is your theme an eye-watering yellow?or maybe you have a beautiful parallax scrolling navigation scheme, but your users aren’t comfortable scrolling.This is a quick visual  reminder that certain colors can constitute a usability problem. And not just with older sites, pretty, visually appealing new sites sometimes fall into this trap as well. I don’t want to pick on made by water, he clearly does gorgeous work. And portfolio sites are often avant garde, but this was the first yellow site I could think of. Clicking around, it’s kind of disorienting. And if you as a designer had just fallen in love with this color palette, you might not have the distance to see that it could be a problem.slide 19:
+[missing anything?]
+
+One of the first things a user will be able to tell you is that you might be missing something basic. Here are some classic oversights:Can they tell who you are and what you do from the homepage?Does it answer all the basic questions you’d expect them to ask?Is there a clear call to action?Can they figure out how to contact you?How the heck do I log in?
+
+I can pick on adzerk because i love them and they love me. But this was the #1 usability problem during my time there. And it's still not fixed.
+
+slide 20:
+[listen for the negative]
+
+When working with users in person, there are some language cues to be especially tuned in to. listen for things like,I can’t read that fontThose colors are hard to seeI can’t get out of herePeople often want to be nice, polite, and kind. So they may not call a problem like they see it. Listen for negative words, or action words that imply a stopping, dead end, or lack of direction. Words like ‘can’t’, ‘unsure’, ‘what’. slide 21:[listen for uncertainty]Also listen for words that are questioning. If your user flow is working as expected, your user should have a pretty clear idea of where they need to go next. Indecisiveness can indicate a problem.this is just beginning to gloss over the surface of finding problems. You start with the biggest most glaring holes and go from there, but how do you get more subtle? 
+
+
+slide 22: 
+[dark patterns]
+
+You have to work with your stakeholders to identify what constitutes a successful completion of a given task. This is what is sometimes called  a ‘win state’. By working with your users over time, you’ll begin to see how well they’re negotiating these key tasks, and whether or not your design is in a win state.
+
+One other thing you can do, is to learn what not to do. This is a wiki of dark patterns. It's a cautionary tale to designers.
+Observe the darkness, and learn what not to do and why. The best way to identify problems is to never even subject your users to them, but to learn from the work of others. The trail has been blazed ahead of you, and there’s a large body of work out there for us to draw from as we work to become better designers.That will take us nicely into our next section. What to do now that we've discovered all these problems.
+
+slide 23:
+[prioritizing]
+
