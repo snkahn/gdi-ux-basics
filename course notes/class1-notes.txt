@@ -1,0 +1,339 @@
+
+Part i
+
+slide 1: opening
+
+-announcements, housekeeping
+
+slide 2: 'rules'
+
+GDI is all about being a safe environment for learning. There are no dumb questions. If you're interested in doing more in the area of ux, you're going to have to get used to asking ALL the questions, because basically you're spending your day trying to crawl into someone else's head.
+
+If you think of something, please feel free to contribute! I'd really like this to be a discussion. It's going to be pretty boring if I'm just here talking at you all for 2 hours! 
+
+slide 3: introductions
+
+-go around the room, hear everyone's name, why they're interested in the course, and their favorite cake or pie
+
+slide 4: agenda
+
+
+slide 5: definition
+
+First, what is User Experience? Does anyone have any ideas?
+
+In a nutshell, people have an experience when they use something. Whether that something is a physical artifact, a software application, or a website. User experience design is the art and science of making that experience effective and satisfying.
+It’s worth mentioning that User experience is commonly abbreviated to UX. 
+
+slide 6
+[a day in the life of]
+
+What does this look like in practice?
+
+
+A recent study of user experience professionals showed that people reported over 16 separate tasks as part of their main job. UXers are all over the map, and we wear many hats.
+
+Personally, In my years as a UX professional, I've done remote and in-person usability testing, metrics analysis, content strategy, graphic design, front-end development, wire framing, information architecture exercises, brainstorming, strategizing, researching, QAing, and a lot of sketching. 
+
+[what, don't you like my waterfall?]
+
+slide 7 
+
+[ok maybe it's more like this.]
+
+The specifics of what ux professionals do will vary with the team and the project. But the biggest constants in my experience are:
+
+slide 8
+
+-advocacy and education. Advocacy both for the users and for UX methodologies. Education on what the problems users are facing every day are, as well as what can be done to fix it.
+
+-proposing solutions and actionable plans. It's not enough to know there's a problem. If you're the one that points out a problem, they're going to look to you to figure out how to fix it. Which is why there's an inherent component of leadership to working on any UX role. 
+
+-facilitating communication. Show me a website that doesn't work well, and I'll show you an organization with fractured or dysfunctional internal communication. Maybe marketing is at odds with business stakeholders, or the developers left the farm somehow. We've had an excellent example of this just this past year, does anyone know what it is? Healthcare.gov. The UI and the backend were farmed out to two different agencies that didn't talk to each other at the very end. That project is worth an entire class in and of itself.
+
+
+slide 9
+[a brief history]
+
+A brief history
+
+User experience is a modern field, but it’s been in the making for about a century. To see its beginnings, you can look all the way back to the machine age of the late 19th and early 20th centuries. At that time, corporations were growing, skilled labor was declining, and advances in machine technology were inspiring industry to push the boundaries of what human labor could make possible.
+The machine age philosophy was best exemplified by people like Frederick Winslow Taylor and Henry Ford, who both pioneered ways to make human labor more efficient, productive, and routinized. Taylor’s research into the efficiency of interactions between workers and their tools was an early precursor to much of what UX professionals think about today.
+
+By the mid 20th century, industrial efficiency and human ingenuity were striking a more harmonious relationship at places like Toyota, where the Toyota Production System continued to value efficiency, but treated workers as key contributors to a continually improving process. One of the core tenets of the Toyota philosophy was “respect for people,” and it resulted in involving workers in troubleshooting and optimizing the processes that they were a part of. 
+
+In the 70s, Xerox founded a research center called PARC, which pioneered designs like the mouse, the Graphic user interface aka GUI, and computer-generated graphics. 
+
+In the 1990s, Apple hired a cognitive scientist named Don Norman, who became the first person to have the title UX Architect. The 90s were also the decade when personal computing exploded, and the internet became popular. The field has grown and evolved from there, always with the goal of making computers easy to use for humans.
+
+If you've been interested in UX previously or plan to spend time learning more about it, you'll definitely hear about the Nielsen Norman group. They are The Guys when it comes to UX. They issue reports on design patterns, the state of the industry, and conduct massive amounts of research that they make freely available for the most part.
+
+
+
+slide 10 
+
+Why should you care about User Experience Design?
+
+
+
+Think about any object that you use on a daily basis.
+
+I’m going to pick on one of my company’s myriad coffee makers for a moment. It's a monstrosity. It has 2 separate on switches. No one has ever figured out on the first try how to put in new grounds, how to brew coffee without the tea side running. It beeps before it’s done, and basically people just have a hard time figuring out how to use it.
+
+
+
+slide 11
+[french press]
+
+Contrast that with my french press. first of all, just look at it. It's pretty! It makes me feel happy with it's simplicity and clean lines. It's also satisfyingly heavy to handle, since it's stainless steel. 
+
+To use it, I do two things. I pour in water and coffee grounds, and press down the lever. No beeping, no buttons, just coffee.
+
+
+These two objects are accomplishing the same thing, brewing coffee. They are doing it very differently, and the user (in this case, me) has a different reaction when using each. 
+
+The stakes are pretty high when you’re talking about user experience. 
+
+In the very best cases, users will experience satisfaction or even outright happiness through interaction. 
+
+The worst case on the other hand, can be frustration, confusion, or even the user making the decision to stop using the object. If they’re unhappy enough, they might tell their friends. If they love it enough, they also might tell their friends.
+
+
+slide 12
+[apple website]
+
+Customer loyalty is often inversely proportional to how easy your product is to use. An easy to use product or website results in more money- whether you’re counting in signups, conversions, or page views. It’s really that simple. If you have any doubts, think about Apple. This is a company that has staked their entire business model on making beautiful, easy to use things. They might not always have the most features, or even be the best quality on the market. But the Apple product will always be the sleekest and the simplest, and that translates to market share.
+
+slide 13
+[how does this apply]
+
+
+Websites are just like any other artifact that people need to have interactions with. If it’s difficult and unpleasant, they won’t come back. Your website is competing not only with the websites of your direct competitors, but with search engines, news aggregators, social media sites, video sites, photo gallery sites. . . the list goes on and on. 
+
+In short, you’ve got approximately 6 seconds to prove to your users that your site is easy to use and will help them achieve their end goal with a minimum of resources. The resources in question are usually your user's time and attention.
+
+
+slide 14
+[craigslist]
+
+A pretty website is not always a usable website. Let me repeat that, if you get nothing else out of this screencast, I want you to walk away with this point. A pretty website is not always a usable website.
+
+Consider the following:
+
+craigslist.com
+
+highly usable, ugly as anything. Craigslist has a cult-like following of extremely enthusiastic users, who know exactly where everything is. They've tried to redesign this a few times and the users rose up and forbade it. When you see those blue links, you know exactly what they are. When you see them turn purple, you know exactly what happened. 
+
+slide 15
+[legos]
+
+Now let's have an example of something beautiful, that's freaking impossible to use. I love legoes as much as anyone, but this website is kind of challenging to navigate, in spite of it's fancy animations and shiny graphics.
+
+
+Part ii.
+
+slide 16
+[exercise]
+
+Now, time to go play around and try this out!
+
+Assignment: Go to http://www.simpleandusable.com/simplify-this
+
+Pass out printed pages with a remote template on them. Post the list of the buttons that have to be on there. Let's take 10 minutes to try to lay out a better remote. 
+
+
+[take a break?]
+
+
+Part iii.
+
+
+slide 17
+[anatomy of a ux design]
+
+so, we've established why you want to make your websites usable. Now we’re going to expand on that idea a bit and delve into the various pieces that work together to make up a good user experience. There’s a lot of terminology that gets tossed around, sometimes as though the terms were interchangeable. They aren’t. There are several distinct pieces that go into the overall User Experience, and it’s important to separate and identify each part in your process.
+
+
+slide 18
+[honeycomb]
+
+User experience is a broad idea. In order to design a good user experience, you have to address several specific sub-areas. Organization, content, visual appeal, business and marketing objectives.
+
+
+slide 19
+[information architecture]
+
+Information architecture refers to the overall organization of navigation and content on a website or software interface. Organizing static content pieces, actions, and any other content in a logical, non-overwhelming way is the end goal of information architecture.
+
+Some examples of pieces of information architecture are navigation menus, sidebars, breadcrumbs, or slides with an excessive number of bulleted lists.
+
+slide 20
+[ia example]
+
+this is a super quick and dirty wireframe that shows some of the key elements that you might use to organize your information architecture.
+
+slide 21
+[interaction design]
+
+Interaction design refers to the overall experience of moving through a series of actions on a website or in a software system. For example, completing a task that requires a user to input information and then post that information to a database. The process of getting that user to perform that task is Interaction Design. It's the process of creating a path that guides someone through a series of tasks.
+
+Some examples of things that required interaction design are basically anything that you interaction with. If it's clickable, scrollable, type-able, or involves an action word like 'Submit', it's an interactions.
+
+
+Here's an example of something that I was working on recently. It details changes of state, and what happens when users click, type, and data is retrieved from the server. Something like this is usually done for the developers and other technical folk alone. If you accidentally show something like this to a business stakeholder, you may end up with a situation like one I had the other day, where a salesperson shouted, 'Is it a pick list or is it a search box?' and I replied 'It's BOTH!' and she said, 'HOW CAN THAT BE?!'
+
+
+slide 22
+[visual design]
+
+Visual design refers to colors, fonts, branding, overall look and feel. This stuff is very important too, especially when it comes to accessibility. Visual design is a key way that we can offer affordance, or cues as to what an element is capable of doing. A door knob offers twisting, or a button offers clicking.
+
+
+We'll delve into all this stuff a little deeper in class 3, which will be our design studio class!
+
+
+Part iv.
+
+slide 23
+[Find out who your users are]
+
+Now that we've got some context and definitions under our belt, why aren't we delving right into the fun stuff, making designs? Well, because before there can be design THERE MUST BE DATA. I can't emphasize this enough. Which is why the very first thing I do whenever I go into a new project, is to find out what their analytics situation is.
+
+You can’t design a good user experience if you don’t know who your users are. Not only do you not know what they’re expecting from your website, you don’t know their technical or physical limitations, cultural biases, or even what sort of device they’re viewing it on!
+
+
+If you’re starting a brand new project, plan for how you’re going to install metrics reporting as soon as you get up and running. If you’re working on an existing project, get metrics, stat!You have an amazing resource in the people who are currently or soon will be using your site or application every day. You can harvest a lot of information from them just by passively observing their actions. This information is known, it’s just a matter of organizing it in a way that’s meaningful and useful to you as a user experience researcher.
+
+
+slide 23
+[what you need to know]
+
+when my analytics people ask me what i want to know, i always tell them EVERYTHING. you just never know what information is going to end up being the exact thing that you needed to know in order to make a decision. 
+
+some of the basic things you'll want to start with, however, will include (and not be limited to)
+
+-demographic information: location, languages used, time zones, formatting conventions
+-technical capabilities: hardware, most commonly used browser/operating system combinations, device type, screen size
+-contexts where device is commonly used (are your users all angrily driving a mini-van while using your product?)
+
+
+In this day and age, you’re not designing for one or two screen widths, you’re designing for hundreds of possible configurations between tvs, smartphones, xboxes, laptops, ipads, kindles, and everything else. It’s important to design to the best of your ability for the device or the top few devices that users are viewing your content on. That does NOT mean just shrinking a webpage down to say, ereader screen size. The experiences are fundamentally different, and the strengths and weaknesses of each should be taken into account. Smartphone apps are simpler and feature just a few big buttons that a user can click with her thumb while walking, for example. A user on a laptop will be able to negotiate a different experience with the benefit of a trackpad and two hands. Your metrics will let you know which types of users are the most common for you, and you can allocate resources accordingly.The same goes for browsers. There are so many different browser versions in the ecosystem right now, most companies pick 4-5 of the most used among their users and support those.
+
+slide 24
+[tools to try]
+
+Google analytics and Piwik are both free to use. Piwik requires you to host it locally, while Google Analytics is hosted by Google. They harvest all kinds of data, basically they just parse your server logs, and can tell you things like:-what type of computer the user is on-operating systems-browsers-countries-where they came from-where they went when they leftand more.
+
+
+crazy egg and kissmetrics are my current favorites. they are both hosted and charge a monthly fee, but I’ve found the levels of data they make available are more than worth it.Crazy egg makes visual representations of data, making it as easy as looking at an image to determine who is clicking what.Kiss metrics allows you to define variables and campaigns throughout your website so that you can associate goals and conversions with specific actions. It also allows you to follow each individual user on a path through your site from start to finish. Both are pretty highly customizable.
+
+If you're having trouble getting management to buy-in to ux, analytics can be an easier way to get your toe into the water as well.
+
+
+Part v. 
+
+slide 25
+[getting started]
+
+If you're like me, you’ve probably looked at a site that you’ve worked on or are currently working on, and wondered if you have any usability problems. In my experience, any site that I’ve ever worked on has had spots that I felt were probably problematic. But it’s one thing to suspect a problem, and another to prove it. 
+
+
+slide 26
+[the small test]
+
+
+As Steve Krug said, it isn’t rocket surgery. The best way to begin it to just do it. It doesn’t have to be complicated, expensive, or time-consuming. It also doesn’t mean that you need to spend weeks preparing a giant test of your entire site or application. It doesn’t mean that you’ll need to overhaul everything and start over. 
+
+
+So here are the 3 things you’ll need to do a user test. A person, something to test, and something to record your findings in. That’s it!That’s easy, right? You can go do it right now! This person can be a coworker from another department, who might not use the website much. It can be a friend or family member. Just recruit a helper for 10 minutes. Sit them down in front of your paper mockup, wireframe, or the live website. Ask them what they think they should do, and then what they think they should do next. Write down what they say. That’s it!
+
+slide 27
+[the big test]
+
+the big test is one that takes a little more planning and recruitment of participants. it should be done in conjunction with ongoing lightweight user tests, or at least, one should not preclude the other. they really have different purposes. Obviously there’s a lot that goes into recruiting said participants and conducting said test, but we’ll get into all that in greater detail in Lessons 8 and 9, Designing a test, and working with users, so fear not.Pros of the big test:get feedback from a wider group of users. If you’re taking the time to put together a longer more in-depth test, you should take the time to recruit a bigger and more diverse group of users to get the most bang for your buckmore in depth feedback. if you’re letting users roam through more of your website or application for a longer period, you’ll get more information from them than if you were say, asking about the position of one button. that’s just a side effect.authoritah. a big scholarly test will gain more buy-in from the high-ups in your organization or your client, or at least, it will if your organization is anything like the ones i’ve worked for.
+
+
+Cons
+
+slowermore time-consumingmore expensiveless focused results- not less valuable, just possibly more challenging to applyslide 28
+[ongoing testing]
+
+Once you’ve gotten a good baseline on your project, if you’re actively developing on it going forward, get into the habit of automatically including a user testing phase for each new feature. If you’re working on a more project by project basis, then include it in with each project. 
+
+Possible exercise if running ahead:
+
+●	Pick a project that you’re working on.●	Find one thing that you think is a problem.●	Find a living person, someone who might feasibly use the project in real life some time.●	Ask them to try it.●	Listen to what they say.●	Was it enlightening? Can you use this to further design and planning discussions in your organization or with your client?
+
+
+Part vi. Designing a test
+
+slide 29
+[underpants gnomes]
+
+My first temptation is always to think, hmm. If I can just get some users in the room with my app, UX will just happen! It will be magical, for the users know everything, and they will solve all of my problems! (by the way, anyone getting this reference? southpark, underpants gnomes? if not, look it up, it’s a classic, although not safe for work.)The field of UX is having a moment right now. People sometimes can romanticize it and think that if they just talk to their users, users will tell them exactly what they needed to hear, about the mysteries of the ages and how to make their application perfect, glorious, and beautiful! The hard truth is, users are notoriously, infamously bad at articulating what it is that they need and want. They will ask for all kinds of things that might be what they think they want, but later we might come to find out that wasn’t it at all. Now, don’t get me wrong, I’m not saying user feedback is bad, or that users never know what they want or need. I’m just saying, a little careful guidance and planning go a long way towards getting the kind of feedback that you can put to use.ok, rant over. let us move on, shall we?slide 30
+[coming up with a testing plan]
+
+look at this from the user’s perspective, for a moment, if you would. they’re taking 15-20 minutes out of their life to help you with what is essentially a glorified survey. there’s a reason we pay people to get them to do this stuff. so be respectful of your volunteer’s time and attention. go in with a gameplan. 
+
+how does one come up with such a plan? Well, it’s a combination of things. Ideally you would have your organized list of known problems, organized by priority. User testing is an excellent time to get help solving those nebulous problems, the long-term new feature development, or resolving internal conflicts over the best way to do something. 
+
+It’s ok to have the mindset that you don’t want to hem in users with a rigid list of questions. But it’s important to provide at least a little bit of structure. People don’t work well in a vaccuum, or with too many possibilities. They get overwhelmed and then they clam up. Giving your users a manageable list of ideas to mull over and react against will help give them something they understand and can quickly form an opinion about, and will get you more concrete feedback that’s easier to parse and apply.
+
+slid 31
+[sample testing plan]
+
+
+as a very brief and basic example, let’s say we’re testing a library website, where they have access to electronic journals and newspapers. So here we have a known problem- the browsing mechanisms aren’t up to snuff. But you can’t just ask a user ‘what do you think about browsing?’Well, you can, but you may find that the feedback will be more useful if you ask them to do a task designed to elicit feedback on that topic. For instance, asking them to look for a specific title in a specific date range.how specific your testing plan going in is up to to you, and leads us nicely into our next point-slide 32
+[test styles]
+
+Now, I will begin by saying that I’m very pragmatic in my approach to these things. There are some very passionate people on both ends of the spectrum, but I’m of the opinion that there is no one right way. There is a time and a place for just about every approach you cna possibly think of, so it behooves us as UX Researchers to have as many tools in our toolboxes as we possibly can.
+
+slide 33
+[naturalistic]
+
+the naturalistic school of testing tends more towards giving users a loose set of guidelines, and then seeing what they do.
+
+the naturalistic approach focuses on open-ended questions. Users may range far and wide in the application or website, and the tester wouldn’t guide them anywhere in particular, but would simply observe what they user is saying and doing.this is a good approach to take when you’re looking for a baseline, more general problems, or just fishing for ideas about how to begin to design something.
+
+a more task-focused approach would be used for A/B testing, or for determining the effectiveness of a new feature. It would generally be much more focused in scope, and works well with 2 or 3 or more different versions of the same thing.in the task-focused approach, the tester would prompt the user to follow a particular path, in order to get more focused feedback on specific parts.slide 33
+[remote vs in-person]
+
+In person and moderated, where you’re sitting down with the user and looking at the screen with them. This is generally the most low-tech way, you don’t need any tools here except something to take notes with. It can be helpful to retain a recording of the session, using any software such as camtasia or jing
+
+
+in-person and unmoderated, where software records their actions and you observe either from behind a mirror or by watching the recording later. Screencasting software can be coopted to record this, but camtasia makes a software suite designed specifically for this. An alternative is cohdoo, and snagit.Remote and moderated, for example via skype or webex, or gotomeeting, where you’re doing screenshare and working with the user in real-time, and Remote and unmoderated, using a service like trymyui.com or usertesting.com that record sound and video of the user’s screen and voice for you.In an unmoderated test, whether in person or remote, it would be difficult (but not impossible) to take a naturalistic approach. If the thing that you’re testing is small enough, this can actually work well to help you determine if you’re funneling users through well enough.slide 34
+[working with users]
+
+slide 35
+[recruiting]
+
+The first step towards working with users is getting some users to work with. The way that you go about this will vary depending on your project and organization, so I apologize is this is a bit general. Whether you’re planning to work with your users remotely or in person, the best way to recruit them is to use your website or application directly. You have access to a direct pipeline to your user population- why not make use of it? How I've done this a few ways- sometimes I leave an open survey to recruit potential testers for the future. Sometimes I leave a link to a prototype with the ability to leave notes and comments. Sometimes I advertise for a specific test I'll be running shortly or am already running.
+
+Along the same likes, social media is a great place to recruit people. It allows them to self-select, responding to you if they’re interested, rather than putting the onus on you to make phone calls or send emails. 
+
+
+slide 36
+[scheduling]
+
+A brief word on scheduling. It’s sometimes the case that you’ll need to conduct sessions with several users in a single day. Make sure to leave plenty of room, if you can, between sessions. Things can run longer than you would expect, and you don’t want to have to rush through. Also, you may have things like unexpected cancellations, mixups, people having trouble finding your location (in the event that you’re having an in-person session) or technical difficulties for remote sessions. Just be sure to take that into account. Giving yourself extra space in between sessions will allow you to regroup and handle any issues that might come up. One time I scheduled a day of back to back sessions, only to discover that I had left myself no time for lunch! I was starving all afternoon, and that was pretty distracting. So a word to the wise, for in-person sessions, bring a snack in case you get stuck.
+
+
+slide 37
+[legal stuff]
+
+unless you work for a university or state agency, it’s unlikely that your organization will have an explicit policy on conducting research with real people. But to be safe, check with your legal department if you have one. They may wish to have your volunteers sign some sort of non-disclosure agreement. If you’re working with a client or organization that’s large enough to have a legal department, it’s better to be safe than sorry. 
+
+slide 38
+[working with users]
+
+It’s important to be friendly and confident when running a session. Begin by telling the person who you are and what you do. I often find it helpful to reassure them that I want their most honest feedback and that they will not hurt my feelings. They might be a little nervous, so it’s nice for you to try to put them at their ease. If they feel they can relate to you, they may open up a little more and give better (or at least, more) feedback.[language]Be mindful of language. And I don’t mean ‘don’t cuss in front of your users’ although that’s also not bad advice. This person has taken the time to meet with you and share their opinions with you. You may remember that I’ve mentioned in past lessons that users are notoriously bad at describing what they want and need. So try to just take their word for it, let them describe things in their own terms, and just take notes and observe. Remember, you and I, we’re nerds. Users are going to use language which you and I might perceive as inaccurate or just plain wrong to describe their perceptions and experiences. Try to focus on what they’re saying rather than how they’re saying it. It’s often the case in my experience that users will have trouble finding technical terms to describe what they want to say, and that’s okay. If the user wants to call the navigation bar a ’stripe’, then by george, a stripe it shall be, until the end of that session. I know it hurts your feelings. It hurts my feelings too. But this isn’t about you and me.[no technobabble]to this end, above all, avoid technobabble. use the simplest, plainest terms you can when you must explain something or engage with the user to get them to explain themselves further. avoid using technical terms like, ‘application’, any programming or scripting language name, industry terms for layouts, and other things of that sort. If you’re not sure when you’re doing this, conduct a practice session with a friend or coworker before sitting down with a user, to do a dry run and make sure you’re being human friendly.[no leading]if you’ve spent any time at all working on a website before testing it, you’ve probably got a couple of pet issues with it. if we’re being truly honest, you might be hoping for a particular outcome from a test if you know what i mean.stomp on that tendency. do not ask any leading questions. avoid trying to get users to go down a path in the hopes of getting the response that you want. A) it will probably backfire on you, but B) it’s our job as user researchers to be as objective as possible. so come to the session with an open mind, and be ready to hear what the users have to say, even if they say they hate the widget you so lovingly crafted.
+
+
+Exercise:
+
+Pick a website for us to 'test' (guide this with the group, seek volunteers)
+have everyone come up with one thing they would like to test
+break into groups of 3, and take turns being the tester and the user
+
+
+
