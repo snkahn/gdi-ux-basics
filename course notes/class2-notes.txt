@@ -1,0 +1,68 @@
+Part 2
+
+slide 1: opening
+
+slide 2: rules review, super quick recap of what we did last time
+
+-general history of ux
+-some general philosophy
+-getting data and using it
+-user testing basics
+
+slide 3: 
+
+agenda
+
+slide 4:
+[what's a persona and why make one?]
+
+Last time we talked a bit about the various kinds of metrics that will influence your designs going forward. The problem is that metrics are often abstract, and design is a concrete process. Obviously there is no substitute for the real live feedback of real live users. But you can’t have users in your design planning meetings. Sometimes getting user feedback isn’t applicable or practical at that particular moment.  This is where personas come in. 
+
+I will just say that personas are one of those things that I think a lot people think of as 'doing ux'. This isn't true. You can very successfully use ux methods on a project with personas never even entering the equation.
+
+Like any tool, personas aren't a perfect solution to every problem. They're helpful in the right situation though.
+
+
+[zoidberg]
+
+So what is a persona? A persona is a fictitious person, created as a stand-in for your actual users. Personas share characteristics of your actual users based on research and knowledge that you already have about them. Personas are beneficial because they help keep you and your teammates focused on the goals and needs of your users.
+
+This is one that I made during a hackathon my company participated in last fall. We didn't have direct access to users at the time, but we did have some lead-up time to do research. The personas helped us sell the process to the judges, and also helped drive our design decisions.
+
+slide 5:
+[proto persona]
+
+Proto-personas are a variant of the typical persona, with the important difference that they are not initially the result of user research. Instead, they originate from brainstorming workshops where company participants try to encapsulate the organization’s beliefs (based on their domain expertise and gut feeling) about who is using their product or service and what is motivating them to do so. Proto-personas give an organization a starting point from which to begin evaluating their products and to create some early design hypotheses. They’re also helpful in initiating and reinforcing corporate awareness of the customer’s point of view to ensure it’s included in strategic planning. This is especially true when the creators of these proto-personas are in a position to affect the company’s strategic direction.
+
+slide 6: 
+[creating a persona]
+
+This all sounds good, so how do you go about creating this imaginary friend? You can make someone up out of the blue, but with no basis in facts, the persona will probably do little good for your project.slide 7:
+
+[win state]
+
+First, you have to determine what constitutes a ‘win’ state in your app. What tasks constitute successful use? For example, for an application i used to work on, our expert users would be successfully serving ads and making use of a variety of our advanced tools. Intermediate users might be serving ads but we know that they rely on our help staff for configuration assistance. Beginners might think we’re google adsense. But in any case. Before we can paint a portrait of a user doing things well, doing them okay, or completely failing in our app, we have to decide what doing well, doing okay, or failing even mean to us.
+
+slide 8:
+[4 levels]
+
+To figure out what your definition of different types of users are, make a list of tasks that someone can do in your site. Organize them by difficulty, and you’ll start to see patterns emerge. You’ll recognize your users. I generally look to create personas representing at least 3 or 4 levels of familiarity with my system.
+
+The next thing to consider is the level of comfort and skill that these users have with other systems, among other characteristics. 
+
+slide 9:
+[a variety of characteristics]
+
+Let’s say you’re designing an accounting application. You might have an expert accountant like this dude here. He looks like he’s a serious badass with a pen and paper, but let’s suppose he’s not very good with Windows 7, the platform on which you’re developing your application. I know this is a weird example, but just go with it.Expert knowledge in one area does not necessarily equate to expert status across the board. This is why I generally like to create a spectrum of personas, with varying skillsets and comfort with different technologies as well as familiarity with the tasks of my system. Each and every one of them has been useful for making design decisions. 
+slide 10:
+[complexities of users]Since all good things begin with spreadsheets, here’s an example of how you might go about beginning to create a spectrum of users with different combinations of skill levels and roles in your application. This is a pretty simplistic example.slide 11:
+[how to do it]This piece is a little bit of imagination and artistry. I tend to merge together a few different real live users that I’ve met or heard about second hand through colleagues or clients. 
+
+It’s important to have this piece though, to assist you in thinking about your users and their motivations and frame of mind when they’re using your app. If it’s a mobile app, for example, are they yelling at their kids and trying to drive? (ehh well, I hope not. But you get the idea.) Maybe your user is using this app in the field and she’s juggling phone calls and data entry. Maybe she’s snoozing in a cubicle, and she hates her boss because she’s doing customer service part time while she’s trying to make her big break into the acting world. Ok, so these are possibly unrealistically flamboyant examples. 
+
+But possibly not. One thing I’ve learned over the years is not to underestimate the wildness and fabulousness of my users, because reality is usually crazier than fiction. 
+
+My point being that these details help you think about things from the user’s point of view.slide 12:
+[make a template]
+
+Let’s go back up to my persona, Zoidberg, for a moment. In my shop, we do agile ux so we didn’t spend time making our personas quite as detailed as we might have in a different sort of environment. This is an example of a persona for an administrator with expert domain knowledge. Some of the things we made sure to define included: age, physical location, and whether or not the person’s use of the application was mandatory or discretionary. For your project, it might make sense to include different aspects about your user.whatever else you do or do not choose to include in your template, it should at least cover the following:NameJob titleTechnical comfortLocationIndustry knowledgeThe only way to know what other characteristics you might want to know about your users will be by knowing the project you’re applying them to, so unfortunately this can be a somewhat vague process. There’s no global persona that will always work for every project. But I can tell you this- include your client or other stakeholders in the discussion as you flesh these out. They have invaluable knowledge to help guide you through this process.
