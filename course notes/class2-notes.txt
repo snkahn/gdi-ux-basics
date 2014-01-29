@@ -165,3 +165,69 @@ We're going to test a site, and come up with some things we think might be probl
 
 Then we'll come back together as a group, discuss what the problems are and why we think they are problems, and try to prioritize them.
 
+slide 31:
+[getting buy-in]
+
+I hope this section might be optional for some of you, and that you’re clients or organizations already have complete trust in the idea of doing user-centered design, and that your path will be easy and smooth.Unfortunately, for many of us, buy-in is earned, not given, and it can be a hard-fought battle. So here are some tips to help you make your case and win.
+
+
+slide 32:
+[process document]
+
+I know, a process document. It sounds just UGH. But a document, no matter how brief, lends authority and substance, and it also shows in concrete steps how you intend to go about doing this thing. It also helps management understand that this is serious, grownup business.
+
+this is a quick, rough, process document I created at adzerk to help guide our interactions with some of our independent contractors. This is just to give you an idea of what might be included in such a document. Try to cover what you’re going to do, in concrete steps. 
+
+slide 33:
+[start doing]
+
+After you’ve created your document, begin implementing it! Pick a feature, a project, a page. Just pick a beginning point, and then start doing what you can on your own. If you can get metrics up and running under your own authority, go for it. If you can start working with users and getting feedback, do it. Go ahead and start working out ways to implement user-centric strategies in your own day to day workflow. The single biggest factor in getting buy-in for this stuff is to get test results in front of people. They might not believe that its important. Or they might claim to believe it, but it’s not a priority because they don’t really really believe. With user testing, seeing is believing.
+
+
+Guerrilla  testing
+I’m going to tell you a story from the trenches. Once, I was working for a beauracractic organization that claimed that it liked the idea of UX, but wouldn’t devote the time and resources it needed to in order to get results.So, I conducted a series of guerrilla tests. I set up 4 remote tests on trymyui.com of 4 of our biggest competitors. The video results were extremely compelling. I set up a lunchtime viewing of some of the highlights, luring key people with food. I won over some people with my results. This took me about a weekend and a couple of free trial accounts to put together. My boss did spring for the lunches though.Whatever it takes to get actual user results in front of people, once you can successfully make it happen, something often clicks and then they ‘get it’.Be the evangelist
+sometimes it’s not enough to just penetrate into people’s brains. You need a higher level of buy-in to get included in the meetings that you need to be included in, to really get user-centric design to become a value of the project or organization. You can do this by being the evangelist. Be a broken record. Whatever parts of your process that you’ve gotten up and running, share your findings with anyone who will listen. Ask questions about how your UX process will fit in, which users you can talk to about something before it gets started, how the team will be working to fix issues that you’ve found. Because ultimately, you can run tests until you’re blue in the face, but you probably can’t fix all of an entire application’s issues by yourself.Lurk
+Over time, listen for footholds. If someone mentions a conversation with a client, jump on board. Would you be able to talk to the client? If someone is doing demos, can you lurk to hear what users are saying? The more you inject yourself, the more it will become natural to the team to include you, and by extension those practices in their daily workflow.Be patient
+
+Over time, it will get through! Just keep doing your thing, and sharing what you learn and how you make it better, and over time your organization, project, or team will change for the better. Processes, thinking, and ways of doing things don’t change over night though, so be patient.
+
+slide 34:
+[share your successes]Share your successes
+
+If you’ve identified and fixed a problem, share that! Make a report, send an email, host a lunch and learn, but let people know about it!If you have user quotes about something that’s easier to use, or heatmaps, clickmaps, or any other type of metric showing users having a higher rate of success, or video showing users having an easier time getting through, share those things!Story time! Has anyone tried to advocate for UX in their organization? How did it go?
+
+slide 35:
+[project management]
+
+
+We've talked about how to get buy-in from your client or organization. I've recommended a lot of one-time, warfare kinds of tactics and methods. Over time, as you integrate UX practices into your workflow, you’re going to need to integrate with whatever existing project management methods are already in place. Even if you don’t have a professed process, the odds are that you’ll recognize some elements of your organization in one of the 3 types we’re going to cover. Since UX isn’t traditionally incorporated into any of these processes, figuring out how to work it in can be an ongoing challenge. 
+
+Honestly, this is still a struggle even for me. I've had to find my way at every single organization I've worked with. And there doesn't seem to be a single recipe for success.
+
+slide 36:
+[waterfall]
+
+Larger, more beauracratic  organizations typically tend more towards methods like waterfall because of the size of teams and projects. Different phases could represent handoff between entire departments or divisions. It’s hard to make changes to a project once its passed off to a different phase.slide 37:
+[ux for waterfall]
+In some ways, the waterfall method makes it a little easier to implement a UX process. All you have to do is establish a clear UX step in the workflow. This makes things a little more cumbersome, as you won’t necessarily be able to get fixes to problems out the door quickly, but once you’ve established User testing as a solid phase in the process, you can be sure it will be happening regularly.working in a waterfall environment has some pros and some cons. You’ll have more time for careful analysis, but you’ll also have less flexibility in rolling out fixes quickly. To help counter that, be careful about prioritizing fixes, since you have less ability to roll them out quickly.
+
+slide 38:
+[agile]
+
+agile methodology is an approach to building software that’s based on rapid iterations. instead of taking time out for each of the steps in the waterfall method, all of those steps happen quickly in tandem or one after the other in cycles of about 2 weeks. agile is really popular and is increasingly being adopted by organizations of all sizes. it seems to work best for smaller teams, in my experience, but i’m not a project management expert and this isn’t a project management course, so that’s neither here nor there.most of my professional life i’ve lived in an agile world, and it actually can be kind of challenging to figure out where ux fits in. People have written entire books about this, so we're clearly not going to be able to do more than touch on this tonight.
+
+
+slide 39:
+[ux for agile]
+
+Things can be fast and furiousFixes can be implemented quickly, or take more time if they’re largerRapid turnaround times allows for real life feedback, which can decrease the need for in-depth studies before deploying
+
+slide 40:
+[lean ux]
+
+values of agile ux: 
+
+Low fidelity deliverables, like paper prototypes,Collaborative brainstorming/design, immediate feedback from users and colleagues, and People and ideas over deliverables
+
+Questions?
+
