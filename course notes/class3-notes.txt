@@ -110,4 +110,46 @@ slide 16:
 
 just briefly, i’ve mentioned state a couple of times. i thought we should take a quick detour to define that. when i talk about state, i don’t necessarily mean a separate page, i mean that a given page or piece of a website may be variable.draw a blank state, draw a populated state
 
-other examples of state include buttons- an enabled button, a disabled button. a really good example of this is in the appstore- so let’s take a quick gander in there and look at these buttons. you can see they say the price of the app, and when you click, they change to an action. there are lots of instances where the state of an element may change in the backend, and it’s important to maintain consistency and communicate these changes to your users in order to keep things transparent and trustworthy.
+other examples of state include buttons- an enabled button, a disabled button. a really good example of this is in the appstore- so let’s take a quick gander in there and look at these buttons. you can see they say the price of the app, and when you click, they change to an action. there are lots of instances where the state of an element may change in the backend, and it’s important to maintain consistency and communicate these changes to your users in order to keep things transparent and trustworthy.slide 17:
+[Wireframing/Prototyping]
+
+So why do we make wireframes, anyway? Well, building websites and applications is a highly visual process. It’s hard to talk about abstract things without a good way to visually understand what you’re talking about. Detailed, visual mockups fill this role as well, but before you jump straight to the visual design, it’s important to establish the bones of your design. slide 18:
+[wireframing]
+
+The wireframe allows you to work with layouts, requirements, and ratios without delving into the messy quagmire of emotion that is color, design, and branding. From a usability perspective, you might know that you need to place the navigation on the left of the page. It’s easier to make a reasonable case for this if you haven’t complicated the equation with shiny blue buttons. Once color is introduced, unfortunately, that seems to be the only thing that people can focus on. This makes it more challenging to stick to your design requirements. The wireframe brings clarity to the process, and allows us to focus on the actual elements of the page.[switch to example]
+
+the traditional wireframe is quite detailed, and rendered by a digital drafting tool. It’s generally fairly polished and contains all the elements possible. 
+
+this is an example of a traditional wireframe. The navigation is completely fleshed out, the content blocks include all the pieces, it includes where images will be placed, where media such as video will be placed, search box, logo, detailed footer with social media icons. It’s basically how the site is going to look, minus the color, graphic components, and filling in the actual data.
+
+
+slide 19:
+[wireframe tools]
+
+What could you use to create a wireframe like this one?here are just a few web-based tools. I’ve used every one of these and they all have their good points. Mockingbird and Balsamiq are both very popular and well-known. They both have a small free version, but for more than somewhere in the neighborhood of 5-10 wireframes they start charging. Cacoo is newer and will allow up to 25 free wireframes. Gliffy is more of a multi-purpose diagramming tool, where they don’t have as many shapes that are pre-defined website elements. Many of the desktop tools are larger, more expensive, and more powerful than their web-based counterparts. They allow more flexibility, more detail, but don’t necessarily allow you to toss things together quite as quickly. My personal emphasis is more on light and quick, so my preference has typically been the web-based tools. But there is a situation for every tool. 
+
+slide 20:
+[paper wireframes]
+
+As i’ve mentioned before, I’m a big fan of the paper wireframe. It’s quick, and light, and you can change your mind without much repercussion. You haven’t invested as much time or effort in the creation of the actual wireframe, so you may find you’re less adverse to making changes, writing over it, or tossing it straight into the recycling bin. (pass around wireframe paper and stencil)i have this stencil kit, and i love it very much for making detailed paper prototypes. there’s a point where you want to invest a little bit more time on the wireframe, for example, if you’re ready to show it to a user. making wireframes is like carving a statue- you begin with the rough, and you get a lot more detailed and specific as you go along.
+
+slide 21:
+[prototyping in code]
+
+There's a recent movement towards implementing prototypes directly in code. I've done this myself on a few projects, and the advantage is that you can hand something to a developer that's already completely ready to be implemented. There's no ambiguity. And it's increasingly the case that designers should know how to code, at least HTML/CSS competently. 
+
+This workflow ensures that you spend time iterating on and refining an actual product, rather than throwaway artifacts.
+
+
+slide 22:
+[iterating]
+
+an iteration refers to the process of taking a wireframe or prototype, showing it to someone, discussing it, and then agreeing on changes. then you make the next version. there might be a few elements that you’ll move to different places, or features that you’ll add. you might get more detailed.you then take that version, and show it to some more people, and get more feedback. rinse and repeat. i don’t generally like to go through more than 3 or 4 iterations on a wireframe, but depending on your clients and or process, you may need to iterate a few more times than that. in the case of my current project, it might actually be more like 15 times per design artifact.
+
+One of the main points of the wireframe is to keep your stakeholders or clients from becoming distracted by the colors and design, but its also to keep you as the designer from becoming too invested in any one design. It’s a place to visualize, and try on many different looks, layouts, and ideas with a minimum of investment. So try to keep that in mind when you’re creating your wireframe, and avoid getting too attached.
+
+slide 23:
+[exercise]
+
+pass out pages of sketchpad paper, do some quick wireframes based on card-sorting exercise earlier.
+
