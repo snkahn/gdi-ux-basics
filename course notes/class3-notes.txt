@@ -1,0 +1,113 @@
+Part 3
+
+slide 1: opening
+
+slide 2: rules review, super quick recap of what we did last time
+
+-general history of ux
+-some general philosophy
+-getting data and using it
+-user testing basics
+
+slide 3: 
+
+agenda
+
+slide 4:
+[info architecture]
+
+We've talked about identifying problems, prioritizing them, and getting feedback and validation from real live users. The next 3 topics will be a bit of a change of pace.
+
+We’re going to delve in and do some more hands on work, focusing on learning some techniques you can apply when you’re working towards fixing these problems you’ve discovered. To that end, today we’re going to cover several techniques you can use to clean up and organize an existing information architecture, or create a new one from scratch.
+
+slide 5:
+[scent of a site]
+
+Before we proceed, I’d like to direct you to a venerable work in the field of information architecture, called ‘The Scent of a Site.’
+
+It was published originally in a journal called ‘Human Computer Interaction’ and is available for purchase from the ACM Digital Library (but I highly recommend checking your local library first!) As NC residents, we all have access to a resource called NC LIVE, with many many digital journal subscriptions, but you have to have a library card.
+
+In any case, I will summarize briefly. People look for certain words in a similar way that a foraging animal would look for certain scents. Once they catch that word or key phrase, they click, and make their way successfully to the information they were looking for. 
+
+
+slide 6:
+[nytimes]
+
+Determining whether users are catching the scent is something you will do through testing and metrics, as we’ve discussed previously. But when you’re trying to make an information architecture more intuitive, one thing to look at is the individual words that you’re using. Let’s go to a big site, that uses a deep information architecture, the nytimes.
+
+Look at this left sidebar here, with all these subcategories of navigation. I will bet you lots of money that they carefully selected these particular terms based on what users were searching for in their site search here, as well as based on what words users themselves used to describe these groups of information.
+
+For example, if you have a subcategory you’re calling ‘International’, but users are searching for ‘World’, while those two words are very close, sentences, labels, and actions using the word, ‘World’ are more likely to help the user catch the scent. Users can be oddly specific sometimes. 
+
+This is because language matters! Let's take a quick poll- who in this room refers to the sweet bubbly beverage as soda? Who as pop? Does it throw you a tiny bit when you hear someone use the term that you don't use?
+
+slide 7:
+[Card sorting]
+
+so here’s the site, I’ll just show you what the architecture right now looks like. I'm just picking this because it was a volunteer project I did awhile ago and it's a pretty small site without much complexity.
+
+
+card sorting is the exercise where you take the cards you’ve created and try to arrange them logically, given the absence of any other associations between them. 
+
+so let's go ahead and pick out the elements on this site and write them all down on the whiteboard so we can all see.
+
+(work through grouping things together)
+
+slide 8:
+[hub and spoke]
+
+the hub and spoke approach is to arrange things that are alike until you can come up with some description of what it is that makes them alike. the description may be an existing subcategory, or it may be a new one. when thinking about this, it helps to organize by parts of speech (nouns versus verbs), as well as using your old SAT logic formulas ‘X is Y as A is to B’. You’d be surprised how often it can get past you that an X is a subtype of Y. 
+
+there is no one right way to do this, but there are ways that will feel more right to your users. so throughout this process, check with them. ask them, ‘does this term make sense to you’ or ‘what word would you use to describe this’. if you can, get your cards in front of a user, and see how they would organize them. the results can be quite enlightening.
+
+slide 9:
+[sitemaps]
+
+when you have an architecture that you’re fairly happy with, i like to make a sitemap to lay it all out and kind of formalize things before i run off to implement them.
+
+Sitemaps are generally a little neater and cleaner to look at, and are better for showing people and getting feedback on.
+
+take results of hub and spoke diagram and draw a site map
+
+slide 10:
+[interaction design]
+
+For the purposes of this lesson, let’s say you’ve just had a set of requirements handed to you by a client. They need a feature added to the site. Users need to be able to upload a file. Super users need to be notified and be able to approve the file so that it can be posted to a section of the site.None of the pages currently exist that would allow this to happen. What should you do next?slide 11:
+[make a map]
+
+I’ve generally found it to be the case that interaction design is highly visual. You’re talking about figuring out what happens first, what happens second, except if this exception happens, then it becomes action 2a instead of action number 2. So the best thing to do to get organized is to figure out what actions are involved, and when they happen in relation to each other.For me, in my lean ux world, I like to do this in a low-tech way on paper or whiteboard. But there are other good tools too. 
+
+slide 12:
+[example requirements]
+
+here’s what we were told. Regular users need to be able to upload files for approval.Super users need to be notified that these files are waiting for them, and then they need to approve them or not approve them. Then the files are posted. or not posted.
+
+
+slide 13:
+[requirements part 2]
+
+so reading between the lines, here are some things that we already know here:before they can do anything, both the user and superuser will have to log in. so we can add that action.Now, we look for the actions. The phrases I’ve made bold are all actions. This is a good start, but we’re still missing quite a bit here. Here’s where we need to start asking ourselves, What happens next?
+
+slide 14:
+[some holes]
+
+So here are just a few questions we can begin to ask to help us flesh out this process:What does the user see before she has uploaded a file?Can the user see other files she’s uploaded in the past? Can she edit them?How is the superuser notified? Email, RSS feed, in-app messaging?What happens when the superuser rejects a file? Is the user notified?Is the user notified when the file is approved? When it’s posted?
+
+
+slide 15:
+[let's map it out]
+
+User logs in. If uploaded files previously, sees list of files. If not, sees message prompting to upload. Uploads a fileSuperuser logs in, is notified in their dashboard, sees list of pending files, or sees message stating there are none. Approves and rejects files.User receives email notifying of approval or rejection.File is posted to website, or is not posted.
+
+Whiteboard exercise
+
+Let's start to map this out. Where do you guys think we should start? 
+
+(starting point, with different paths)
+
+slide 16:
+[a note on states]
+
+just briefly, i’ve mentioned state a couple of times. i thought we should take a quick detour to define that. when i talk about state, i don’t necessarily mean a separate page, i mean that a given page or piece of a website may be variable.draw a blank state, draw a populated state
+
+other examples of state include buttons- an enabled button, a disabled button. a really good example of this is in the appstore- so let’s take a quick gander in there and look at these buttons. you can see they say the price of the app, and when you click, they change to an action. there are lots of instances where the state of an element may change in the backend, and it’s important to maintain consistency and communicate these changes to your users in order to keep things transparent and trustworthy.
