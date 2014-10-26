@@ -1,0 +1,335 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs32 \cf0 Part 3\
+\
+slide 1: opening\
+\
+slide 2: rules review, super quick recap of what we did last time\
+\
+-general history of ux\
+-some general philosophy\
+-getting data and using it\
+-user testing basics\
+\
+slide 3: \
+\
+agenda\
+\
+slide 4:\
+[info architecture]\
+\
+We've talked about identifying problems, prioritizing them, and getting feedback and validation from real live users. The next 3 topics will be a bit of a change of pace.\
+\
+We\'92re going to delve in and do some more hands on work, focusing on learning some techniques you can apply when you\'92re working towards fixing these problems you\'92ve discovered. To that end, today we\'92re going to cover several techniques you can use to clean up and organize an existing information architecture, or create a new one from scratch.\
+\
+slide 5:\
+[scent of a site]\
+\
+Before we proceed, I\'92d like to direct you to a venerable work in the field of information architecture, called \'91The Scent of a Site.\'92\
+\
+It was published originally in a journal called \'91Human Computer Interaction\'92 and is available for purchase from the ACM Digital Library (but I highly recommend checking your local library first!) As NC residents, we all have access to a resource called NC LIVE, with many many digital journal subscriptions, but you have to have a library card.\
+\
+In any case, I will summarize briefly. People look for certain words in a similar way that a foraging animal would look for certain scents. Once they catch that word or key phrase, they click, and make their way successfully to the information they were looking for. \
+\
+\
+slide 6:\
+[nytimes]\
+\
+Determining whether users are catching the scent is something you will do through testing and metrics, as we\'92ve discussed previously. But when you\'92re trying to make an information architecture more intuitive, one thing to look at is the individual words that you\'92re using. Let\'92s go to a big site, that uses a deep information architecture, the nytimes.\
+\
+Look at this left sidebar here, with all these subcategories of navigation. I will bet you lots of money that they carefully selected these particular terms based on what users were searching for in their site search here, as well as based on what words users themselves used to describe these groups of information.\
+\
+For example, if you have a subcategory you\'92re calling \'91International\'92, but users are searching for \'91World\'92, while those two words are very close, sentences, labels, and actions using the word, \'91World\'92 are more likely to help the user catch the scent. Users can be oddly specific sometimes. \
+\
+This is because language matters! Let's take a quick poll- who in this room refers to the sweet bubbly beverage as soda? Who as pop? Does it throw you a tiny bit when you hear someone use the term that you don't use?\
+\
+slide 7:\
+[Card sorting]\
+\
+so here\'92s the site, I\'92ll just show you what the architecture right now looks like. I'm just picking this because it was a volunteer project I did awhile ago and it's a pretty small site without much complexity.\
+\
+\
+card sorting is the exercise where you take the cards you\'92ve created and try to arrange them logically, given the absence of any other associations between them. \
+\
+so let's go ahead and pick out the elements on this site and write them all down on the whiteboard so we can all see.\
+\
+(work through grouping things together)\
+\
+slide 8:\
+[hub and spoke]\
+\
+the hub and spoke approach is to arrange things that are alike until you can come up with some description of what it is that makes them alike. the description may be an existing subcategory, or it may be a new one. when thinking about this, it helps to organize by parts of speech (nouns versus verbs), as well as using your old SAT logic formulas \'91X is Y as A is to B\'92. You\'92d be surprised how often it can get past you that an X is a subtype of Y. \
+\
+there is no one right way to do this, but there are ways that will feel more right to your users. so throughout this process, check with them. ask them, \'91does this term make sense to you\'92 or \'91what word would you use to describe this\'92. if you can, get your cards in front of a user, and see how they would organize them. the results can be quite enlightening.\
+\
+slide 9:\
+[sitemaps]\
+\
+when you have an architecture that you\'92re fairly happy with, i like to make a sitemap to lay it all out and kind of formalize things before i run off to implement them.\
+\
+Sitemaps are generally a little neater and cleaner to look at, and are better for showing people and getting feedback on.\
+\
+take results of hub and spoke diagram and draw a site map\
+\
+slide 10:\
+[interaction design]\
+\
+For the purposes of this lesson, let\'92s say you\'92ve just had a set of requirements handed to you by a client. They need a feature added to the site. Users need to be able to upload a file. Super users need to be notified and be able to approve the file so that it can be posted to a section of the site.\
+\
+None of the pages currently exist that would allow this to happen. What should you do next?\
+\
+slide 11:\
+[make a map]\
+\
+I\'92ve generally found it to be the case that interaction design is highly visual. You\'92re talking about figuring out what happens first, what happens second, except if this exception happens, then it becomes action 2a instead of action number 2. So the best thing to do to get organized is to figure out what actions are involved, and when they happen in relation to each other.\
+\
+For me, in my lean ux world, I like to do this in a low-tech way on paper or whiteboard. But there are other good tools too. \
+\
+\
+slide 12:\
+[example requirements]\
+\
+here\'92s what we were told. \
+\
+Regular users need to be able to upload files for approval.\
+Super users need to be notified that these files are waiting for them, and then they need to approve them or not approve them. Then the files are posted. or not posted.\
+\
+\
+slide 13:\
+[requirements part 2]\
+\
+so reading between the lines, here are some things that we already know here:\
+\
+before they can do anything, both the user and superuser will have to log in. so we can add that action.\
+\
+Now, we look for the actions. The phrases I\'92ve made bold are all actions. This is a good start, but we\'92re still missing quite a bit here. Here\'92s where we need to start asking ourselves, What happens next?\
+\
+slide 14:\
+[some holes]\
+\
+So here are just a few questions we can begin to ask to help us flesh out this process:\
+\
+What does the user see before she has uploaded a file?\
+Can the user see other files she\'92s uploaded in the past? Can she edit them?\
+How is the superuser notified? Email, RSS feed, in-app messaging?\
+What happens when the superuser rejects a file? Is the user notified?\
+Is the user notified when the file is approved? When it\'92s posted?\
+\
+\
+slide 15:\
+[let's map it out]\
+\
+User logs in. If uploaded files previously, sees list of files. If not, sees message prompting to upload. Uploads a file\
+Superuser logs in, is notified in their dashboard, sees list of pending files, or sees message stating there are none. Approves and rejects files.\
+User receives email notifying of approval or rejection.\
+File is posted to website, or is not posted.\
+\
+Whiteboard exercise\
+\
+Let's start to map this out. Where do you guys think we should start? \
+\
+(starting point, with different paths)\
+\
+slide 16:\
+[a note on states]\
+\
+just briefly, i\'92ve mentioned state a couple of times. i thought we should take a quick detour to define that. when i talk about state, i don\'92t necessarily mean a separate page, i mean that a given page or piece of a website may be variable.\
+\
+\
+draw a blank state, draw a populated state\
+\
+other examples of state include buttons- an enabled button, a disabled button. a really good example of this is in the appstore- so let\'92s take a quick gander in there and look at these buttons. you can see they say the price of the app, and when you click, they change to an action. \
+\
+there are lots of instances where the state of an element may change in the backend, and it\'92s important to maintain consistency and communicate these changes to your users in order to keep things transparent and trustworthy.\
+\
+slide 17:\
+[Wireframing/Prototyping]\
+\
+So why do we make wireframes, anyway? \
+\
+Well, building websites and applications is a highly visual process. It\'92s hard to talk about abstract things without a good way to visually understand what you\'92re talking about. \
+\
+Detailed, visual mockups fill this role as well, but before you jump straight to the visual design, it\'92s important to establish the bones of your design. \
+\
+slide 18:\
+[wireframing]\
+\
+The wireframe allows you to work with layouts, requirements, and ratios without delving into the messy quagmire of emotion that is color, design, and branding. From a usability perspective, you might know that you need to place the navigation on the left of the page. It\'92s easier to make a reasonable case for this if you haven\'92t complicated the equation with shiny blue buttons. Once color is introduced, unfortunately, that seems to be the only thing that people can focus on. This makes it more challenging to stick to your design requirements. The wireframe brings clarity to the process, and allows us to focus on the actual elements of the page.\
+\
+\
+[switch to example]\
+\
+the traditional wireframe is quite detailed, and rendered by a digital drafting tool. It\'92s generally fairly polished and contains all the elements possible. \
+\
+this is an example of a traditional wireframe. The navigation is completely fleshed out, the content blocks include all the pieces, it includes where images will be placed, where media such as video will be placed, search box, logo, detailed footer with social media icons. It\'92s basically how the site is going to look, minus the color, graphic components, and filling in the actual data.\
+\
+\
+slide 19:\
+[wireframe tools]\
+\
+What could you use to create a wireframe like this one?\
+\
+here are just a few web-based tools. I\'92ve used every one of these and they all have their good points. \
+\
+Mockingbird and Balsamiq are both very popular and well-known. They both have a small free version, but for more than somewhere in the neighborhood of 5-10 wireframes they start charging. Cacoo is newer and will allow up to 25 free wireframes. Gliffy is more of a multi-purpose diagramming tool, where they don\'92t have as many shapes that are pre-defined website elements. \
+\
+Many of the desktop tools are larger, more expensive, and more powerful than their web-based counterparts. \
+\
+They allow more flexibility, more detail, but don\'92t necessarily allow you to toss things together quite as quickly. My personal emphasis is more on light and quick, so my preference has typically been the web-based tools. But there is a situation for every tool. \
+\
+slide 20:\
+[paper wireframes]\
+\
+As i\'92ve mentioned before, I\'92m a big fan of the paper wireframe. It\'92s quick, and light, and you can change your mind without much repercussion. You haven\'92t invested as much time or effort in the creation of the actual wireframe, so you may find you\'92re less adverse to making changes, writing over it, or tossing it straight into the recycling bin. \
+\
+(pass around wireframe paper and stencil)\
+\
+i have this stencil kit, and i love it very much for making detailed paper prototypes. there\'92s a point where you want to invest a little bit more time on the wireframe, for example, if you\'92re ready to show it to a user. \
+\
+making wireframes is like carving a statue- you begin with the rough, and you get a lot more detailed and specific as you go along.\
+\
+slide 21:\
+[prototyping in code]\
+\
+There's a recent movement towards implementing prototypes directly in code. I've done this myself on a few projects, and the advantage is that you can hand something to a developer that's already completely ready to be implemented. There's no ambiguity. And it's increasingly the case that designers should know how to code, at least HTML/CSS competently. \
+\
+This workflow ensures that you spend time iterating on and refining an actual product, rather than throwaway artifacts.\
+\
+\
+slide 22:\
+[iterating]\
+\
+an iteration refers to the process of taking a wireframe or prototype, showing it to someone, discussing it, and then agreeing on changes. then you make the next version. there might be a few elements that you\'92ll move to different places, or features that you\'92ll add. you might get more detailed.\
+\
+you then take that version, and show it to some more people, and get more feedback. rinse and repeat. i don\'92t generally like to go through more than 3 or 4 iterations on a wireframe, but depending on your clients and or process, you may need to iterate a few more times than that. \
+\
+in the case of my current project, it might actually be more like 15 times per design artifact.\
+\
+One of the main points of the wireframe is to keep your stakeholders or clients from becoming distracted by the colors and design, but its also to keep you as the designer from becoming too invested in any one design. It\'92s a place to visualize, and try on many different looks, layouts, and ideas with a minimum of investment. So try to keep that in mind when you\'92re creating your wireframe, and avoid getting too attached.\
+\
+slide 23:\
+[exercise: 20 mins]\
+\
+First work on the whiteboard together to establish one or two elements such as navigation. Then break into groups of 3-4, and work on giant stickies. Go around the room to discuss and give feedback, try again on another sticky note.\
+\
+\
+slide 24:\
+[visual design]\
+\
+\
+ok, time to make it look like a real website! you\'92ve arrived at this point, you\'92ve thought through all the information architecture, the user flows and interactions, and you\'92ve laid it out in a logical, familiar way that you can share with users and talk about. Congratulations! I\'92m going to let you in on a little secret...\
+\
+You\'92ve done the hard part already! This next piece is going to be so much easier for having worked through this process. So give yourself a pat on the back. \
+\
+But you\'92re not done yet, and there are still a few things to keep in mind when you\'92re adding the colors, images, fonts to your design.\
+\
+slide 25\
+[color and usability]\
+\
+When was the last time you saw a purple stop sign?\
+\
+We have cultural expectations about color. In real life, Green means go. Red means stop. In the digital world, these expectations have carried over. Studies have shown that users are more likely to understand a visual message if it\'92s color coded in an expected way. \
+\
+slide 26:\
+[common conventions]\
+\
+for example, this is a pretty familiar convention. you\'92ll see this on most websites- green means, \'91you\'92re good to go. everything is ok here.\'92 this is an example from patterntap, a website dedicated to showcasing good patterns in design.\
+\
+conversely, red immediately indicates that you need to take a closer look, something might be wrong.\
+\
+Now, this isn\'92t to say that you have to absolutely stick to these color conventions, but do be mindful of them! If you want to veer into unfamiliar color territory with things like status indicators and messages, be sure to check with your users. \
+\
+slide 27\
+[contrast]\
+\
+For many people, this level of contrast might be fine. we don\'92t have any trouble reading it. But there are some who have different forms of colorblindness or don\'92t read very well on a computer screen due to various issues with their eyesight. This could prove a real usability problem for those people. Additionally, with certain types of colorblindness, all the colors in your design might look like shades of gray, also causing problems.\
+\
+I recommend using a color checker to be sure. Snook.ca is one of the better ones I\'92ve found, you can check the 2 colors that you want to use and tweak them until you have an acceptable ratio of contrast.\
+\
+slide 28\
+[fonts]\
+\
+I\'92ll only say this about fonts. They are so much fun, there are so many of them, and it\'92s increasingly easy to include a variety of non-standard fonts in your websites. Be careful not to get carried away though. the prettier, crazier fonts are often harder to read for folks with any sort of eyesight issue going on. Feel free to use the pretty fonts, but test them! (are you noticing a theme here?) \
+\
+slide 29\
+[get feedback from designers]\
+\
+visual design is a place where it can really help to get a reality check or a friendly critique by other professionals. \
+\
+these are some of the places where i post my designs to get feedback. if there\'92s a usability problem with the shade of blue i\'92ve chosen, someone here might spot it more quickly than a colleague or even a user.\
+\
+slide 30\
+[resources]\
+\
+\
+slide 31\
+[books]\
+\
+Here\'92s a quick list of some of the books that are on my shelf, that I find myself turning to again and again over time, or recommending to others. There are tons and tons of awesome UX books out there, so don\'92t limit yourself! But consider checking out some of these. \
+\
+\
+slide 32:\
+[blogs]\
+\
+in addition to books, I just wanted to briefly highlight some good places to look online for articles and resources.\
+\
+slide 33:\
+[friends]\
+\
+I\'92ve found since I began doing UX that one of the best ways to keep current and learn what others are doing and how I can be doing better is to follow the great practitioners on social media.\
+\
+To that end, follow these folks on twitter right now:\
+\
+Jeffrey Zeldman, of world wide blue beanie fame. He\'92s a big advocate for web standards and usability in general.\
+\
+Nick Finck is the principle UXer at Ubermind, and is a regular on the UX conference beat.\
+\
+Luke W, of the web forms book that I just recommended, also a great UX tweeter and conference regular.\
+\
+Jeff Gothelf is the Lean UX guy\
+\
+Jane Wells is the principle UXer for Wordpress.\
+\
+There are hundreds and hundreds more, and I advocate following widely and reading what gets posted. You\'92ll be amazed at the wealth of great information that just gets passively filtered to you.\
+\
+\
+The lazy bear maintains a large list.\
+\
+slide 34:\
+[conferences]\
+\
+these are some of the best known ux conferences, but of course there are a lot more out there. i\'92m listing ones that i\'92ve been to in the US because i live in the US and I haven\'92t had the opportunity to attend any international conferences. \
+\
+An Event Apart is put on by a list apart, and it\'92s really just fabulous. it\'92s not restricted to just ux, there are presentations on a variety of topics.\
+IxDA is put on by the interaction design association.\
+Agile UX agile ux is pretty new, so the jury\'92s still out.\
+IA Summit is put on by the information architecture institute\
+CHI or computer human interaction is an academic conference put on by the Association for Computing Machinery or ACM\'92s special interest group on computer human interaction. Which sounds like a mouthful. but you\'92ll get some solid information there if you ever have the opportunity.\
+\
+I was invited to speak at HCI last year which I accepted until I realized it was going to be 3k for the ticket alone. UX conferences can be very academic, and very spend.\
+\
+\
+slide 35:\
+[meetups]\
+\
+ok, I kid. meetups are awesome in their own rite, and fulfill a totally separate need from conferences, even if there is some overlap and a lot less cost involved.\
+\
+we have some really great ones around here too. TriUXPA is especially very active.\
+\
+slide 36:\
+[toys]\
+\
+i couldn\'92t live without 2 things- my ux sketchbook, and my ui stencils. when you\'92re doing low fidelity wireframes, little details like this help things to look polished and professional, even if they aren\'92t complex or detailed.\
+\
+i\'92ve also recently developed an addiction to optiflow pens, even though i used to be completely devoted to mechanical pencils.\
+\
+and last, but not least, the brains, behavior, and design toolkit. it\'92s free, and it\'92s basically a care package to help get you started from ground zero. And again, I\'92m attaching a list of urls in the lesson resources, so you\'92ll be able to find all of these things.\
+\
+slide 37:\
+[go forth and be awesome]\
+\
+that's the end of the class! }
